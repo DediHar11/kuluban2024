@@ -11,4 +11,8 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public/build', // Tentukan direktori output untuk hasil build
+        assetsDir: '', // Untuk menyimpan aset di root folder build
+    },
 });
